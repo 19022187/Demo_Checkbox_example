@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
                 else {
                     tv.setText("The discount is not given");
                 }
-
                 cb.setChecked(false);
 
                 Toast.makeText(MainActivity.this, "Check being requested", Toast.LENGTH_SHORT).show();
